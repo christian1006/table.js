@@ -1,4 +1,7 @@
 function addTodo () {
-  add.EventListener();
-};
+  storage = [];
+  
+addTodo: function (todo) {
+  todos.push(todo);
+  displayTodos();
 
